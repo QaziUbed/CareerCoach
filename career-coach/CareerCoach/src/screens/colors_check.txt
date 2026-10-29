@@ -1,0 +1,407 @@
+auth\LoginScreen.tsx:58:          outlineColor="#E2E8F0"
+auth\LoginScreen.tsx:59:          activeOutlineColor="#2563EB"
+auth\LoginScreen.tsx:69:          outlineColor="#E2E8F0"
+auth\LoginScreen.tsx:70:          activeOutlineColor="#2563EB"
+auth\LoginScreen.tsx:79:          buttonColor="#2563EB"
+auth\LoginScreen.tsx:90:          textColor="#2563EB"
+auth\LoginScreen.tsx:96:          <Text variant="bodyMedium" style={{ color: '#64748B' }}>Don't have an account? </Text>
+auth\LoginScreen.tsx:109:    backgroundColor: '#FFFFFF',
+auth\LoginScreen.tsx:118:    color: '#1E293B',
+auth\LoginScreen.tsx:123:    color: '#64748B',
+auth\LoginScreen.tsx:129:    backgroundColor: '#FFFFFF',
+auth\LoginScreen.tsx:140:    borderColor: '#E2E8F0',
+auth\LoginScreen.tsx:148:    color: '#2563EB',
+auth\OnboardingScreen.tsx:63:                <Text style={{ color: role.startsWith('Select') ? '#64748B' : '#1E293B', fontSize: 16 }}>{role}</Text>
+auth\OnboardingScreen.tsx:88:            iconColor="#2563EB"
+auth\OnboardingScreen.tsx:93:            <Text variant="headlineMedium" style={{ fontWeight: 'bold', color: '#1E293B' }}>
+auth\OnboardingScreen.tsx:96:            <Text variant="bodySmall" style={{ color: '#64748B' }}>
+auth\OnboardingScreen.tsx:103:            iconColor="#2563EB"
+auth\OnboardingScreen.tsx:118:        buttonColor="#2563EB"
+auth\OnboardingScreen.tsx:130:    backgroundColor: '#FFFFFF',
+auth\OnboardingScreen.tsx:135:    color: '#1E293B',
+auth\OnboardingScreen.tsx:140:    color: '#64748B',
+auth\OnboardingScreen.tsx:149:    color: '#1E293B',
+auth\OnboardingScreen.tsx:154:    backgroundColor: '#FFFFFF',
+auth\OnboardingScreen.tsx:156:    borderColor: '#E2E8F0',
+auth\OnboardingScreen.tsx:170:    backgroundColor: '#F8FAFC',
+auth\OnboardingScreen.tsx:172:    borderColor: '#E2E8F0',
+auth\OnboardingScreen.tsx:188:    color: '#EF4444',
+auth\SignupScreen.tsx:73:            outlineColor="#E2E8F0"
+auth\SignupScreen.tsx:74:            activeOutlineColor="#2563EB"
+auth\SignupScreen.tsx:85:            outlineColor="#E2E8F0"
+auth\SignupScreen.tsx:86:            activeOutlineColor="#2563EB"
+auth\SignupScreen.tsx:96:            outlineColor="#E2E8F0"
+auth\SignupScreen.tsx:97:            activeOutlineColor="#2563EB"
+auth\SignupScreen.tsx:107:            outlineColor="#E2E8F0"
+auth\SignupScreen.tsx:108:            activeOutlineColor="#2563EB"
+auth\SignupScreen.tsx:117:            buttonColor="#2563EB"
+auth\SignupScreen.tsx:123:            <Text variant="bodyMedium" style={{ color: '#64748B' }}>Already have an account? </Text>
+auth\SignupScreen.tsx:137:    backgroundColor: '#FFFFFF',
+auth\SignupScreen.tsx:149:    color: '#1E293B',
+auth\SignupScreen.tsx:154:    color: '#64748B',
+auth\SignupScreen.tsx:160:    backgroundColor: '#FFFFFF',
+auth\SignupScreen.tsx:173:    color: '#2563EB',
+home\HomeScreen.tsx:100:      applied: '#2563EB',
+home\HomeScreen.tsx:101:      interview: '#8B5CF6',
+home\HomeScreen.tsx:102:      offer: '#10B981',
+home\HomeScreen.tsx:103:      rejected: '#EF4444',
+home\HomeScreen.tsx:105:    return colors[status.toLowerCase() as keyof typeof colors] || '#64748B';
+home\HomeScreen.tsx:110:      applied: '#EFF6FF',
+home\HomeScreen.tsx:111:      interview: '#F3E8FF',
+home\HomeScreen.tsx:112:      offer: '#DCFCE7',
+home\HomeScreen.tsx:113:      rejected: '#FEE2E2',
+home\HomeScreen.tsx:115:    return colors[status.toLowerCase() as keyof typeof colors] || '#F1F5F9';
+home\HomeScreen.tsx:232:              textColor="#2563EB"
+home\HomeScreen.tsx:251:                buttonColor="#2563EB"
+home\HomeScreen.tsx:304:              buttonColor="#2563EB"
+home\HomeScreen.tsx:318:    backgroundColor: '#F8FAFC',
+home\HomeScreen.tsx:327:    backgroundColor: '#F8FAFC',
+home\HomeScreen.tsx:333:    color: '#1E293B',
+home\HomeScreen.tsx:338:    color: '#64748B',
+home\HomeScreen.tsx:348:    backgroundColor: '#FFFFFF',
+home\HomeScreen.tsx:351:    shadowColor: '#000',
+home\HomeScreen.tsx:359:    color: '#2563EB',
+home\HomeScreen.tsx:364:    color: '#64748B',
+home\HomeScreen.tsx:370:    color: '#1E293B',
+home\HomeScreen.tsx:380:    backgroundColor: '#FFFFFF',
+home\HomeScreen.tsx:385:    shadowColor: '#000',
+home\HomeScreen.tsx:394:    backgroundColor: '#EFF6FF',
+home\HomeScreen.tsx:405:    color: '#1E293B',
+home\HomeScreen.tsx:411:    color: '#64748B',
+home\HomeScreen.tsx:424:    backgroundColor: '#FFFFFF',
+home\HomeScreen.tsx:427:    shadowColor: '#000',
+home\HomeScreen.tsx:435:    color: '#1E293B',
+home\HomeScreen.tsx:441:    color: '#64748B',
+home\HomeScreen.tsx:449:    backgroundColor: '#FFFFFF',
+home\HomeScreen.tsx:453:    shadowColor: '#000',
+home\HomeScreen.tsx:469:    color: '#1E293B',
+home\HomeScreen.tsx:474:    color: '#2563EB',
+home\HomeScreen.tsx:481:    color: '#64748B',
+home\HomeScreen.tsx:484:    backgroundColor: '#FEF3C7',
+home\HomeScreen.tsx:487:    borderColor: '#FCD34D',
+home\HomeScreen.tsx:491:    color: '#92400E',
+home\HomeScreen.tsx:496:    color: '#78350F',
+interview\FeedbackScreen.tsx:43:    if (score < 5) return '#EF4444'; // Red
+interview\FeedbackScreen.tsx:44:    if (score < 7) return '#F59E0B'; // Orange
+interview\FeedbackScreen.tsx:45:    if (score < 8) return '#EAB308'; // Yellow
+interview\FeedbackScreen.tsx:46:    return '#10B981'; // Green
+interview\FeedbackScreen.tsx:50:    if (score < 5) return '#FEE2E2';
+interview\FeedbackScreen.tsx:51:    if (score < 7) return '#FED7AA';
+interview\FeedbackScreen.tsx:52:    if (score < 8) return '#FEF3C7';
+interview\FeedbackScreen.tsx:53:    return '#D1FAE5';
+interview\FeedbackScreen.tsx:97:              textColor="#2563EB"
+interview\FeedbackScreen.tsx:173:          textColor="#2563EB"
+interview\FeedbackScreen.tsx:181:          buttonColor="#2563EB"
+interview\FeedbackScreen.tsx:193:    backgroundColor: '#F8FAFC',
+interview\FeedbackScreen.tsx:211:    shadowColor: '#000',
+interview\FeedbackScreen.tsx:222:    color: '#64748B',
+interview\FeedbackScreen.tsx:230:    backgroundColor: '#FFFFFF',
+interview\FeedbackScreen.tsx:234:    shadowColor: '#000',
+interview\FeedbackScreen.tsx:246:    color: '#1E293B',
+interview\FeedbackScreen.tsx:250:    color: '#475569',
+interview\FeedbackScreen.tsx:255:    backgroundColor: '#F0FDF4',
+interview\FeedbackScreen.tsx:257:    borderColor: '#86EFAC',
+interview\FeedbackScreen.tsx:260:    color: '#059669',
+interview\FeedbackScreen.tsx:269:    color: '#64748B',
+interview\FeedbackScreen.tsx:275:    color: '#065F46',
+interview\FeedbackScreen.tsx:279:    backgroundColor: '#FFF7ED',
+interview\FeedbackScreen.tsx:281:    borderColor: '#FED7AA',
+interview\FeedbackScreen.tsx:284:    color: '#EA580C',
+interview\FeedbackScreen.tsx:290:    color: '#9A3412',
+interview\FeedbackScreen.tsx:294:    backgroundColor: '#EFF6FF',
+interview\FeedbackScreen.tsx:296:    borderColor: '#93C5FD',
+interview\FeedbackScreen.tsx:299:    color: '#1D4ED8',
+interview\FeedbackScreen.tsx:304:    color: '#1E40AF',
+interview\FeedbackScreen.tsx:309:    color: '#475569',
+interview\InterviewScreen.tsx:81:      behavioral: '#2563EB',
+interview\InterviewScreen.tsx:82:      technical: '#10B981',
+interview\InterviewScreen.tsx:83:      situational: '#F59E0B',
+interview\InterviewScreen.tsx:84:      company: '#8B5CF6',
+interview\InterviewScreen.tsx:86:    return colors[category as keyof typeof colors] || '#64748B';
+interview\InterviewScreen.tsx:91:      behavioral: '#EFF6FF',
+interview\InterviewScreen.tsx:92:      technical: '#DCFCE7',
+interview\InterviewScreen.tsx:93:      situational: '#FEF3C7',
+interview\InterviewScreen.tsx:94:      company: '#F3E8FF',
+interview\InterviewScreen.tsx:96:    return colors[category as keyof typeof colors] || '#F1F5F9';
+interview\InterviewScreen.tsx:125:        <ActivityIndicator size="large" color="#2563EB" />
+interview\InterviewScreen.tsx:135:        <Button mode="contained" onPress={loadQuestions} buttonColor="#2563EB">
+interview\InterviewScreen.tsx:207:              textColor="#2563EB"
+interview\InterviewScreen.tsx:216:                buttonColor="#2563EB"
+interview\InterviewScreen.tsx:282:          selectedColor="#2563EB"
+interview\InterviewScreen.tsx:290:          selectedColor="#2563EB"
+interview\InterviewScreen.tsx:298:          selectedColor="#10B981"
+interview\InterviewScreen.tsx:306:          selectedColor="#F59E0B"
+interview\InterviewScreen.tsx:314:          selectedColor="#8B5CF6"
+interview\InterviewScreen.tsx:335:    backgroundColor: '#F8FAFC',
+interview\InterviewScreen.tsx:341:    backgroundColor: '#FFFFFF',
+interview\InterviewScreen.tsx:345:    color: '#64748B',
+interview\InterviewScreen.tsx:353:    backgroundColor: '#FFFFFF',
+interview\InterviewScreen.tsx:356:    color: '#EF4444',
+interview\InterviewScreen.tsx:362:    backgroundColor: '#FFFFFF',
+interview\InterviewScreen.tsx:365:    borderBottomColor: '#E2E8F0',
+interview\InterviewScreen.tsx:368:    color: '#64748B',
+interview\InterviewScreen.tsx:372:    color: '#1E293B',
+interview\InterviewScreen.tsx:377:    color: '#2563EB',
+interview\InterviewScreen.tsx:385:    color: '#475569',
+interview\InterviewScreen.tsx:391:    backgroundColor: '#E2E8F0',
+interview\InterviewScreen.tsx:397:    backgroundColor: '#10B981',
+interview\InterviewScreen.tsx:401:    backgroundColor: '#FFFFFF',
+interview\InterviewScreen.tsx:403:    borderBottomColor: '#E2E8F0',
+interview\InterviewScreen.tsx:417:    backgroundColor: '#FFFFFF',
+interview\InterviewScreen.tsx:421:    shadowColor: '#000',
+interview\InterviewScreen.tsx:444:    backgroundColor: '#DCFCE7',
+interview\InterviewScreen.tsx:451:    color: '#10B981',
+interview\InterviewScreen.tsx:456:    color: '#059669',
+interview\InterviewScreen.tsx:461:    color: '#1E293B',
+interview\InterviewScreen.tsx:467:    color: '#64748B',
+interview\InterviewScreen.tsx:476:    borderTopColor: '#E2E8F0',
+interview\InterviewScreen.tsx:482:    color: '#475569',
+interview\InterviewScreen.tsx:487:    color: '#1E293B',
+interview\InterviewScreen.tsx:495:    color: '#475569',
+interview\InterviewScreen.tsx:513:    backgroundColor: '#3B82F6',
+interview\InterviewScreen.tsx:516:    shadowColor: '#000',
+interview\InterviewScreen.tsx:523:    color: '#FFFFFF',
+interview\InterviewScreen.tsx:536:    color: '#FFFFFF',
+interview\PracticeScreen.tsx:35:      behavioral: '#2563EB',
+interview\PracticeScreen.tsx:36:      technical: '#10B981',
+interview\PracticeScreen.tsx:37:      situational: '#F59E0B',
+interview\PracticeScreen.tsx:38:      company: '#8B5CF6',
+interview\PracticeScreen.tsx:40:    return colors[cat as keyof typeof colors] || '#64748B';
+interview\PracticeScreen.tsx:45:      behavioral: '#EFF6FF',
+interview\PracticeScreen.tsx:46:      technical: '#DCFCE7',
+interview\PracticeScreen.tsx:47:      situational: '#FEF3C7',
+interview\PracticeScreen.tsx:48:      company: '#F3E8FF',
+interview\PracticeScreen.tsx:50:    return colors[cat as keyof typeof colors] || '#F1F5F9';
+interview\PracticeScreen.tsx:207:        buttonColor="#2563EB"
+interview\PracticeScreen.tsx:255:    backgroundColor: '#F8FAFC',
+interview\PracticeScreen.tsx:261:    backgroundColor: '#FFFFFF',
+interview\PracticeScreen.tsx:265:    shadowColor: '#000',
+interview\PracticeScreen.tsx:282:    color: '#1E293B',
+interview\PracticeScreen.tsx:287:    backgroundColor: '#FFFFFF',
+interview\PracticeScreen.tsx:291:    shadowColor: '#000',
+interview\PracticeScreen.tsx:302:    color: '#1E293B',
+interview\PracticeScreen.tsx:307:    color: '#64748B',
+interview\PracticeScreen.tsx:311:    color: '#475569',
+interview\PracticeScreen.tsx:318:    color: '#475569',
+interview\PracticeScreen.tsx:323:    backgroundColor: '#FFFFFF',
+interview\PracticeScreen.tsx:327:    shadowColor: '#000',
+interview\PracticeScreen.tsx:345:    color: '#F59E0B',
+interview\PracticeScreen.tsx:350:    color: '#10B981',
+jobs\AddJobScreen.tsx:154:        <ActivityIndicator size="large" color="#3B82F6" />
+jobs\AddJobScreen.tsx:189:            outlineColor="#E2E8F0"
+jobs\AddJobScreen.tsx:190:            activeOutlineColor="#3B82F6"
+jobs\AddJobScreen.tsx:202:            outlineColor="#E2E8F0"
+jobs\AddJobScreen.tsx:203:            activeOutlineColor="#3B82F6"
+jobs\AddJobScreen.tsx:215:            outlineColor="#E2E8F0"
+jobs\AddJobScreen.tsx:216:            activeOutlineColor="#3B82F6"
+jobs\AddJobScreen.tsx:230:            outlineColor="#E2E8F0"
+jobs\AddJobScreen.tsx:231:            activeOutlineColor="#3B82F6"
+jobs\AddJobScreen.tsx:273:            outlineColor="#E2E8F0"
+jobs\AddJobScreen.tsx:274:            activeOutlineColor="#3B82F6"
+jobs\AddJobScreen.tsx:301:            textColor="#EF4444"
+jobs\AddJobScreen.tsx:316:    backgroundColor: '#F8FAFC',
+jobs\AddJobScreen.tsx:325:    backgroundColor: '#FFFFFF',
+jobs\AddJobScreen.tsx:327:    borderBottomColor: '#E2E8F0',
+jobs\AddJobScreen.tsx:331:    color: '#64748B',
+jobs\AddJobScreen.tsx:337:    color: '#1E293B',
+jobs\AddJobScreen.tsx:352:    color: '#1E293B',
+jobs\AddJobScreen.tsx:356:    backgroundColor: '#FFFFFF',
+jobs\AddJobScreen.tsx:367:    backgroundColor: '#FFFFFF',
+jobs\AddJobScreen.tsx:369:    borderColor: '#E2E8F0',
+jobs\AddJobScreen.tsx:376:    color: '#1E293B',
+jobs\AddJobScreen.tsx:380:    color: '#64748B',
+jobs\AddJobScreen.tsx:383:    backgroundColor: '#3B82F6',
+jobs\AddJobScreen.tsx:395:    borderColor: '#EF4444',
+jobs\AddJobScreen.tsx:406:    color: '#EF4444',
+jobs\AddJobScreen.tsx:412:    backgroundColor: '#F8FAFC',
+jobs\AddJobScreen.tsx:417:    color: '#64748B',
+jobs\JobsScreen.tsx:26:  applied: '#3B82F6',
+jobs\JobsScreen.tsx:27:  interview: '#F59E0B',
+jobs\JobsScreen.tsx:28:  offer: '#10B981',
+jobs\JobsScreen.tsx:29:  rejected: '#EF4444',
+jobs\JobsScreen.tsx:80:    if (!companyName) return '#3B82F6';
+jobs\JobsScreen.tsx:81:    const colors = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#EC4899'];
+jobs\JobsScreen.tsx:145:                  style={[styles.statusBadge, { backgroundColor: (STATUS_COLORS[item.status] || '#3B82F6') + '20' }]}
+jobs\JobsScreen.tsx:146:                  textStyle={[styles.statusText, { color: STATUS_COLORS[item.status] || '#3B82F6' }]}
+jobs\JobsScreen.tsx:254:    backgroundColor: '#F8FAFC',
+jobs\JobsScreen.tsx:263:    backgroundColor: '#FFFFFF',
+jobs\JobsScreen.tsx:265:    borderBottomColor: '#E2E8F0',
+jobs\JobsScreen.tsx:275:    color: '#1E293B',
+jobs\JobsScreen.tsx:279:    backgroundColor: '#3B82F6',
+jobs\JobsScreen.tsx:280:    color: '#FFFFFF',
+jobs\JobsScreen.tsx:287:    backgroundColor: '#3B82F6',
+jobs\JobsScreen.tsx:290:    shadowColor: '#3B82F6',
+jobs\JobsScreen.tsx:298:    color: '#FFFFFF',
+jobs\JobsScreen.tsx:303:    backgroundColor: '#FFFFFF',
+jobs\JobsScreen.tsx:305:    borderBottomColor: '#E2E8F0',
+jobs\JobsScreen.tsx:319:    backgroundColor: '#F1F5F9',
+jobs\JobsScreen.tsx:323:    backgroundColor: '#3B82F6',
+jobs\JobsScreen.tsx:328:    color: '#64748B',
+jobs\JobsScreen.tsx:331:    color: '#FFFFFF',
+jobs\JobsScreen.tsx:342:    backgroundColor: '#FFFFFF',
+jobs\JobsScreen.tsx:345:    shadowColor: '#000',
+jobs\JobsScreen.tsx:351:    borderColor: '#F1F5F9',
+jobs\JobsScreen.tsx:368:    color: '#FFFFFF',
+jobs\JobsScreen.tsx:386:    color: '#1E293B',
+jobs\JobsScreen.tsx:391:    color: '#64748B',
+jobs\JobsScreen.tsx:412:    color: '#94A3B8',
+jobs\JobsScreen.tsx:416:    backgroundColor: '#10B98120',
+jobs\JobsScreen.tsx:421:    borderColor: '#10B98140',
+jobs\JobsScreen.tsx:426:    color: '#059669',
+jobs\JobsScreen.tsx:439:    backgroundColor: '#EFF6FF',
+jobs\JobsScreen.tsx:450:    color: '#1E293B',
+jobs\JobsScreen.tsx:456:    color: '#64748B',
+jobs\JobsScreen.tsx:462:    backgroundColor: '#3B82F6',
+jobs\JobsScreen.tsx:466:    shadowColor: '#3B82F6',
+jobs\JobsScreen.tsx:475:    color: '#FFFFFF',
+resume\OptimizationLoadingScreen.tsx:80:        <ActivityIndicator size={80} color="#2563EB" />
+resume\OptimizationLoadingScreen.tsx:119:    backgroundColor: '#FFFFFF',
+resume\OptimizationLoadingScreen.tsx:129:    color: '#1E293B',
+resume\OptimizationLoadingScreen.tsx:134:    color: '#64748B',
+resume\OptimizationLoadingScreen.tsx:139:    color: '#2563EB',
+resume\OptimizationLoadingScreen.tsx:145:    color: '#475569',
+resume\OptimizationLoadingScreen.tsx:158:    backgroundColor: '#2563EB',
+resume\OptimizationLoadingScreen.tsx:167:    color: '#94A3B8',
+resume\OptimizationResultScreen.tsx:144:        <ActivityIndicator size="large" color="#2563EB" />
+resume\OptimizationResultScreen.tsx:154:        <Button mode="contained" onPress={() => navigation.goBack()} buttonColor="#2563EB">
+resume\OptimizationResultScreen.tsx:304:              <ActivityIndicator size="large" color="#2563EB" />
+resume\OptimizationResultScreen.tsx:318:                    outlineColor="#E2E8F0"
+resume\OptimizationResultScreen.tsx:319:                    activeOutlineColor="#2563EB"
+resume\OptimizationResultScreen.tsx:329:                  buttonColor="#2563EB"
+resume\OptimizationResultScreen.tsx:338:                  textColor="#2563EB"
+resume\OptimizationResultScreen.tsx:359:                buttonColor="#2563EB"
+resume\OptimizationResultScreen.tsx:369:                buttonColor="#2563EB"
+resume\OptimizationResultScreen.tsx:379:                textColor="#2563EB"
+resume\OptimizationResultScreen.tsx:395:    backgroundColor: '#F8FAFC',
+resume\OptimizationResultScreen.tsx:404:    backgroundColor: '#FFFFFF',
+resume\OptimizationResultScreen.tsx:408:    color: '#64748B',
+resume\OptimizationResultScreen.tsx:416:    backgroundColor: '#FFFFFF',
+resume\OptimizationResultScreen.tsx:419:    color: '#EF4444',
+resume\OptimizationResultScreen.tsx:425:    backgroundColor: '#FFFFFF',
+resume\OptimizationResultScreen.tsx:430:    shadowColor: '#000',
+resume\OptimizationResultScreen.tsx:437:    color: '#1E293B',
+resume\OptimizationResultScreen.tsx:458:    backgroundColor: '#FEF2F2',
+resume\OptimizationResultScreen.tsx:459:    borderColor: '#F97316',
+resume\OptimizationResultScreen.tsx:462:    backgroundColor: '#F0FDF4',
+resume\OptimizationResultScreen.tsx:463:    borderColor: '#10B981',
+resume\OptimizationResultScreen.tsx:468:    color: '#64748B',
+resume\OptimizationResultScreen.tsx:474:    color: '#1E293B',
+resume\OptimizationResultScreen.tsx:483:    color: '#10B981',
+resume\OptimizationResultScreen.tsx:489:    color: '#475569',
+resume\OptimizationResultScreen.tsx:499:    backgroundColor: '#DCFCE7',
+resume\OptimizationResultScreen.tsx:504:    borderColor: '#10B981',
+resume\OptimizationResultScreen.tsx:507:    color: '#059669',
+resume\OptimizationResultScreen.tsx:513:    backgroundColor: '#FFFFFF',
+resume\OptimizationResultScreen.tsx:518:    shadowColor: '#000',
+resume\OptimizationResultScreen.tsx:530:    backgroundColor: '#2563EB',
+resume\OptimizationResultScreen.tsx:535:    color: '#64748B',
+resume\OptimizationResultScreen.tsx:538:    color: '#FFFFFF',
+resume\OptimizationResultScreen.tsx:544:    backgroundColor: '#FFFFFF',
+resume\OptimizationResultScreen.tsx:548:    shadowColor: '#000',
+resume\OptimizationResultScreen.tsx:554:    backgroundColor: '#EFF6FF',
+resume\OptimizationResultScreen.tsx:558:    borderColor: '#2563EB',
+resume\OptimizationResultScreen.tsx:561:    color: '#1E40AF',
+resume\OptimizationResultScreen.tsx:566:    color: '#1E293B',
+resume\OptimizationResultScreen.tsx:571:    color: '#1E293B',
+resume\OptimizationResultScreen.tsx:575:    color: '#475569',
+resume\OptimizationResultScreen.tsx:582:    borderBottomColor: '#E2E8F0',
+resume\OptimizationResultScreen.tsx:587:    color: '#1E293B',
+resume\OptimizationResultScreen.tsx:593:    color: '#2563EB',
+resume\OptimizationResultScreen.tsx:598:    color: '#64748B',
+resume\OptimizationResultScreen.tsx:603:    color: '#475569',
+resume\OptimizationResultScreen.tsx:613:    backgroundColor: '#F1F5F9',
+resume\OptimizationResultScreen.tsx:618:    borderColor: '#CBD5E1',
+resume\OptimizationResultScreen.tsx:621:    color: '#475569',
+resume\OptimizationResultScreen.tsx:626:    backgroundColor: '#FFFFFF',
+resume\ResumeScreen.tsx:225:              buttonColor="#2563EB"
+resume\ResumeScreen.tsx:263:                outlineColor="#E2E8F0"
+resume\ResumeScreen.tsx:264:                activeOutlineColor="#2563EB"
+resume\ResumeScreen.tsx:273:                outlineColor="#E2E8F0"
+resume\ResumeScreen.tsx:274:                activeOutlineColor="#2563EB"
+resume\ResumeScreen.tsx:285:                outlineColor="#E2E8F0"
+resume\ResumeScreen.tsx:286:                activeOutlineColor="#2563EB"
+resume\ResumeScreen.tsx:299:            buttonColor="#2563EB"
+resume\ResumeScreen.tsx:329:    backgroundColor: '#FFFFFF',
+resume\ResumeScreen.tsx:345:    color: '#1E293B',
+resume\ResumeScreen.tsx:349:    color: '#64748B',
+resume\ResumeScreen.tsx:353:    backgroundColor: '#FFFFFF',
+resume\ResumeScreen.tsx:356:    shadowColor: '#000',
+resume\ResumeScreen.tsx:361:    borderColor: '#E2E8F0',
+resume\ResumeScreen.tsx:369:    color: '#64748B',
+resume\ResumeScreen.tsx:378:    color: '#059669',
+resume\ResumeScreen.tsx:383:    color: '#64748B',
+resume\ResumeScreen.tsx:389:    borderTopColor: '#E2E8F0',
+resume\ResumeScreen.tsx:392:    color: '#475569',
+resume\ResumeScreen.tsx:397:    color: '#64748B',
+resume\ResumeScreen.tsx:406:    backgroundColor: '#FFFFFF',
+resume\ResumeScreen.tsx:424:    backgroundColor: '#3B82F6',
+resume\ResumeScreen.tsx:427:    shadowColor: '#000',
+resume\ResumeScreen.tsx:434:    color: '#FFFFFF',
+resume\ResumeScreen.tsx:447:    color: '#FFFFFF',
+settings\SettingsScreen.tsx:61:      free: '#94A3B8',
+settings\SettingsScreen.tsx:62:      job_seeker: '#3B82F6',
+settings\SettingsScreen.tsx:63:      pro: '#8B5CF6',
+settings\SettingsScreen.tsx:64:      career_plus: '#F59E0B',
+settings\SettingsScreen.tsx:186:    if (limit === -1) return '#10B981'; // Unlimited - green
+settings\SettingsScreen.tsx:188:    if (percentage >= 90) return '#EF4444'; // Red
+settings\SettingsScreen.tsx:189:    if (percentage >= 70) return '#F59E0B'; // Orange
+settings\SettingsScreen.tsx:190:    return '#10B981'; // Green
+settings\SettingsScreen.tsx:437:    backgroundColor: '#F8FAFC',
+settings\SettingsScreen.tsx:442:    backgroundColor: '#FFFFFF',
+settings\SettingsScreen.tsx:444:    borderBottomColor: '#E2E8F0',
+settings\SettingsScreen.tsx:449:    color: '#1E293B',
+settings\SettingsScreen.tsx:452:    backgroundColor: '#FFFFFF',
+settings\SettingsScreen.tsx:474:    color: '#FFFFFF',
+settings\SettingsScreen.tsx:482:    color: '#1E293B',
+settings\SettingsScreen.tsx:487:    color: '#64748B',
+settings\SettingsScreen.tsx:501:    backgroundColor: '#F1F5F9',
+settings\SettingsScreen.tsx:509:    color: '#1E293B',
+settings\SettingsScreen.tsx:520:    color: '#1E293B',
+settings\SettingsScreen.tsx:527:    backgroundColor: '#3B82F6',
+settings\SettingsScreen.tsx:534:    color: '#FFFFFF',
+settings\SettingsScreen.tsx:539:    color: '#FFFFFF',
+settings\SettingsScreen.tsx:554:    color: '#FFFFFF',
+settings\SettingsScreen.tsx:560:    color: '#FFFFFF',
+settings\SettingsScreen.tsx:564:    backgroundColor: '#FFFFFF',
+settings\SettingsScreen.tsx:570:    color: '#3B82F6',
+settings\SettingsScreen.tsx:579:    color: '#1E293B',
+settings\SettingsScreen.tsx:594:    color: '#10B981',
+settings\SettingsScreen.tsx:598:    color: '#1E293B',
+settings\SettingsScreen.tsx:601:    color: '#94A3B8',
+settings\SettingsScreen.tsx:604:    backgroundColor: '#F1F5F9',
+settings\SettingsScreen.tsx:610:    color: '#1E293B',
+settings\SettingsScreen.tsx:628:    color: '#1E293B',
+settings\SettingsScreen.tsx:633:    color: '#64748B',
+settings\SettingsScreen.tsx:656:    color: '#1E293B',
+settings\SettingsScreen.tsx:660:    color: '#94A3B8',
+settings\SettingsScreen.tsx:664:    color: '#94A3B8',
+settings\SettingsScreen.tsx:680:    color: '#EF4444',
+settings\UpgradeScreen.tsx:272:        <ActivityIndicator size="large" color="#3B82F6" />
+settings\UpgradeScreen.tsx:344:    backgroundColor: '#F8FAFC',
+settings\UpgradeScreen.tsx:353:    backgroundColor: '#FFFFFF',
+settings\UpgradeScreen.tsx:355:    borderBottomColor: '#E2E8F0',
+settings\UpgradeScreen.tsx:359:    color: '#64748B',
+settings\UpgradeScreen.tsx:365:    color: '#1E293B',
+settings\UpgradeScreen.tsx:380:    color: '#1E293B',
+settings\UpgradeScreen.tsx:386:    color: '#64748B',
+settings\UpgradeScreen.tsx:393:    backgroundColor: '#FFFFFF',
+settings\UpgradeScreen.tsx:397:    borderColor: '#E2E8F0',
+settings\UpgradeScreen.tsx:401:    borderColor: '#3B82F6',
+settings\UpgradeScreen.tsx:402:    shadowColor: '#3B82F6',
+settings\UpgradeScreen.tsx:416:    backgroundColor: '#3B82F6',
+settings\UpgradeScreen.tsx:417:    color: '#FFFFFF',
+settings\UpgradeScreen.tsx:427:    color: '#1E293B',
+settings\UpgradeScreen.tsx:438:    color: '#3B82F6',
+settings\UpgradeScreen.tsx:442:    color: '#64748B',
+settings\UpgradeScreen.tsx:455:    color: '#10B981',
+settings\UpgradeScreen.tsx:461:    color: '#1E293B',
+settings\UpgradeScreen.tsx:465:    color: '#94A3B8',
+settings\UpgradeScreen.tsx:469:    backgroundColor: '#1E293B',
+settings\UpgradeScreen.tsx:472:    backgroundColor: '#3B82F6',
+settings\UpgradeScreen.tsx:483:    borderColor: '#3B82F6',
+settings\UpgradeScreen.tsx:492:    color: '#3B82F6',
+settings\UpgradeScreen.tsx:503:    color: '#3B82F6',
+settings\UpgradeScreen.tsx:508:    color: '#94A3B8',
+settings\UpgradeScreen.tsx:512:    color: '#94A3B8',
+settings\UpgradeScreen.tsx:522:    backgroundColor: '#F8FAFC',
+settings\UpgradeScreen.tsx:527:    color: '#64748B',
